@@ -18,6 +18,7 @@ Please do not import packages that are not listed in the provided code. Follow t
 Instead of turning linear SVM into dual formulation, we are going to solve the primal formulation directly
 with a gradient-based algorithm. Note that here we include the bias term b into parameter w by
 appending x with 1.
+
 In (batch) gradient descent, at each iteration of parameter update, we compute the gradients
 for all data points and take the average (or sum). When the training set is large (i.e., N is a large
 number), this is often too computationally expensive (for example, a too large chunk of data cannot
